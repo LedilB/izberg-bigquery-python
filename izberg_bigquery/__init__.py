@@ -6,7 +6,7 @@ from .bigquery_service import BigQueryService
 
 __author__ = 'Antoine Cezar'
 __email__ = 'antoine@izberg-marketplace.com'
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 __all__ = [
     'BigQueryJob',
     'BigQueryResult',
