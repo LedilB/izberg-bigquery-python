@@ -3,6 +3,11 @@
 History
 -------
 
+0.2.1 (2016-02-02)
+------------------
+
+* Hardcode package version so build can pass
+
 0.2.0 (2016-02-02)
 ------------------
 
