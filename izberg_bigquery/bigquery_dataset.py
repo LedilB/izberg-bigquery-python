@@ -14,6 +14,9 @@ class BigQueryDataset():
     def table_exists(self, table):
         return self._client.check_table(self._dataset, table)
 
+    def table_schema(self, table):
+        return self._client.get_table_schema(self._dataset, table)
+
     def delete_table(self, table):
         return self._client.delete_table(self._dataset, table)
 
