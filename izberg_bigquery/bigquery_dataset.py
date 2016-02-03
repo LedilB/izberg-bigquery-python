@@ -23,6 +23,9 @@ class BigQueryDataset():
     def create_table(self, table, schema):
         return self._client.create_table(self._dataset, table, schema)
 
+    def update_table(self, table, schema):
+        return self._client.update_table(self._dataset, table, schema)
+
     def write_to_truncated_table(self, sql, table):
         return self.write_to_table(sql, table, JOB_WRITE_TRUNCATE)
 
